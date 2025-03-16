@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">Portfolio</div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Hi, I'm <span class="highlight">Vicky Kumar</span></h1>
+          <p class="subtitle">MERN STACK Developer and Problem Solver </p>
+          <p class="description">From algorithms to AI applications: My passion for computer science and intelligent systems.</p>
+          <div class="cta-buttons">
+            <a href="#contact" class="btn primary-btn">Contact Me</a>
+            <button class="btn secondary-btn" onclick="window.open('./img/VickyResumeOriginal.pdf')">
+                Download Resume
+              </button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-placeholder">
+            <div class="placeholder-text"></div>
+            <img src="img/profile-pic.png">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p>I am a passionate Computer Science Engineering (CSE) student with a strong interest in web development, software engineering. I enjoy solving problems,and exploring new technologies.Currently, I am working on projects using the MERN stack and have experience in React, JavaScript, and Material UI. I am also interested in data structures, algorithms, and software development best practices. I am actively seeking opportunities to learn, collaborate, and contribute to innovative tech projects.</p>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-item">
+          <div class="education-year">2022 - Present</div>
+          <div class="education-details">
+            <h3>Bachelor of Engineering in CSE</h3>
+            <p class="institution">Excel Engineering College TamilNadu</p>
+            <p>GPA: 7.9/10.0</p>
+            <p>Relevant coursework : Data Structures and Algorithms, Web Development</p>
+          </div>
+        </div>
+        <div class="education-item">
+          <div class="education-year">2020 - 2022</div>
+          <div class="education-details">
+            <h3>Intermediate</h3>
+            <p class="institution">R.R.Shah College Raxaul</p>
+            <p>Percentage: 85 %</p>
+            <p>Bihar School Examination Board (BSEB)</p>
+          </div>
+        </div>
+        <div class="education-item">
+          <div class="education-year">2019 - 2020</div>
+          <div class="education-details">
+            <h3>Matriculation</h3>
+            <p class="institution">U.H.School</p>
+            <p>Percentage: 75.4%</p>
+            <p>Bihar School Examination Board (BSEB)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="img/Spotify.png" alt="Spotify Clone">
+            </div>
+            <h3>Spotify Clone</h3>
+            <p> Developed a responsive Spotify UI clone using HTML5 CSS3, featuring a modern dark-themed layout with
+              smooth animations, hover effects, and a sidebar navigation (Home, Search, Library), while ensuring full
+              responsiveness across desktop and mobile using CSS Flexbox Grid.
+              </p>
+            <div class="project-tags" style="margin-bottom:100px">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+            <a href="https://vickykumarg.github.io/Spotify-page/" class="project-link">Live Demo</a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="img/weather.png" alt="Weather App - Real-time Weather Forecast Image">
+            </div>
+          
+            <h3>Weather App - Real-time Weather Forecast</h3>
+            <p>I developed a responsive Weather App using React.js and Material UI, designed to provide real-time weather updates for any location worldwide. The app fetches data from the OpenWeather API, displaying essential weather details such as temperature, humidity, wind speed, and weather conditions.</p>
+            <div class="project-tags" style="margin-bottom: 68px;">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">React</span>
+            </div>
+            <a href="https://vickykumarg.github.io/Weather-App/" class="project-link">Live Demo</a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="img/won.png" alt="Wanderlust ! Your Gateway to Seamless Travel & Stays Image">
+            </div>
+            <h3>Wanderlust – Your Gateway to Seamless Travel & Stays</h3>
+            <p>Wanderlust is a travel and accommodation booking platform inspired by Airbnb, designed to connect travelers with unique stays and experiences. The application allows users to search, book, and manage accommodations effortlessly, offering a smooth and intuitive experience.</p>
+            <div class="project-tags" style="margin-bottom: 30px;">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Express.js</span>
+              <span class="tag">MongoDb</span>
+            </div>
+            <a href="https://wanderlust-cq59.onrender.com/listings" class="project-link">Live Demo</a>
+          </div>
+            
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+            <h3>Frontend Technology</h3>
+            <ul class="skill-list">
+              
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Backend & Database</h3>
+            <ul class="skill-list">
+              
+              <li>MongoDB</li>
+              <li>SQL</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Programming Languages</h3>
+            <ul class="skill-list">
+              
+              <li>Java</li>
+              <li>C</li>
+              
+            </ul>
+          </div>
+        
+          <div class="skill-category">
+            <h3>Tools & Technologies</h3>
+            <ul class="skill-list">
+              <li>Git and Github</li>
+              <li>VS Code</li>
+              <li>ChatGPT & Gemini AI</li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <h3>Email</h3>
+              <p>vickykumarchainpur@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <h3>Phone</h3>
+              <p>+91 9546270518</p>
+            </div>
+            <div class="contact-item">
+              <h3>Location</h3>
+              <p>Namakkal, Chennai, India</p>
+            </div>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/vicky-kumar-809027258/" class="https://www.linkedin.com/in/vicky-kumar-809027258/">LinkedIn</a>
+              <a href="https://github.com/vickykumarg" class="https://github.com/vickykumarg">GitHub</a>
+              <a href="https://leetcode.com/u/Vicky_Kumar_3/" class="https://leetcode.com/u/Vicky_Kumar_3/">LeetCode</a>
+              <a href="https://www.geeksforgeeks.org/user/vickykumar8081/" class="https://www.geeksforgeeks.org/user/vickykumar8081/">GFG</a>
+             
+            </div>
+          </div>
+          <div class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Vicky Kumar. All Rights Reserved.</p>
+      </div>
+    </footer>
+    
+  </body>
+</html>
